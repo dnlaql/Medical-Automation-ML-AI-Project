@@ -1,2 +1,5 @@
-pydeck
-geopandas
+streamlit==1.15.0
+pandas==1.5.3
+pydeck==0.8.0
+geopandas==0.12.2
+shapely==1.8.0
