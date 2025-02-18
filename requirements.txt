@@ -1,2 +1,2 @@
-pip install pydeck
-pip install geopandas
+pydeck
+geopandas
