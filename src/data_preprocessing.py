@@ -1,7 +1,6 @@
 import pandas as pd
-from geopy.geocoders import Nominatim
+import geopandas as gpd
 from shapely.geometry import Point
-import folium
 
 def preprocess_data(df):
     """
@@ -9,7 +8,7 @@ def preprocess_data(df):
     - Filling missing values with the mean of numeric columns
     - Dropping unnecessary columns (like 'Address')
     - Formatting NRIC/Passport No with dashes
-    - Geocoding address to latitude and longitude
+    - Creating a GeoDataFrame from latitude and longitude columns
     """
 
     # Fill missing values for numeric columns with the mean
@@ -28,25 +27,13 @@ def preprocess_data(df):
     if 'NRIC/Passport No' in df.columns:
         df['NRIC/Passport No'] = df['NRIC/Passport No'].apply(lambda x: format_nric(x))
 
-    # Geocoding: Get Latitude and Longitude from Address column (if available)
-    if 'Address' in df.columns:
-        geolocator = Nominatim(user_agent="medical_ai_dashboard")
-        df['Coordinates'] = df['Address'].apply(lambda x: geocode_address(geolocator, x))
-
-        # Split coordinates into Latitude and Longitude
-        df[['Latitude', 'Longitude']] = pd.DataFrame(df['Coordinates'].tolist(), index=df.index)
+    # Create a GeoDataFrame from latitude and longitude columns
+    if 'Latitude' in df.columns and 'Longitude' in df.columns:
+        geometry = [Point(lon, lat) for lon, lat in zip(df['Longitude'], df['Latitude'])]
+        geo_df = gpd.GeoDataFrame(df, geometry=geometry)
+        return geo_df
 
     return df
-
-def geocode_address(geolocator, address):
-    """
-    Function to geocode an address using Geopy and return latitude and longitude.
-    """
-    location = geolocator.geocode(address)
-    if location:
-        return (location.latitude, location.longitude)
-    else:
-        return (None, None)
 
 def format_nric(nric):
     """
