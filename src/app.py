@@ -9,8 +9,7 @@ from data_preprocessing import preprocess_data  # No need to use 'src.' here
 
 import streamlit as st
 import pandas as pd
-import folium
-from streamlit_folium import folium_static
+import pydeck as pdk
 
 st.title('Medical AI Dashboard')
 
@@ -22,30 +21,37 @@ if uploaded_file is not None:
     df = pd.read_csv(uploaded_file)  # Read the uploaded CSV into a DataFrame
     
     # Perform data preprocessing by calling the function from the separate file
-    df = preprocess_data(df)
+    geo_df = preprocess_data(df)  # Get GeoDataFrame with lat-long
 
     # Show a preview of the cleaned data
     st.write("Data preview (after preprocessing):")
-    st.dataframe(df.head())  # Display the first few rows of the processed dataset
+    st.dataframe(geo_df.head())  # Display the first few rows of the processed dataset
 
-    # Create Folium Map to visualize the geo data
+    # Visualization - Geo Map
     st.header('Patient Location Map')
-
-    # Filter rows with non-null Latitude and Longitude
-    if 'Latitude' in df.columns and 'Longitude' in df.columns:
-        df = df.dropna(subset=['Latitude', 'Longitude'])
-
-        # Create a base Folium map centered around the mean latitude and longitude
-        map_center = [df['Latitude'].mean(), df['Longitude'].mean()]
-        patient_map = folium.Map(location=map_center, zoom_start=12)
-
-        # Add markers for each patient
-        for _, row in df.iterrows():
-            folium.Marker([row['Latitude'], row['Longitude']],
-                          popup=row['NRIC/Passport No']).add_to(patient_map)
-
-        # Display the Folium map in the Streamlit app
-        folium_static(patient_map)
+    
+    # Use pydeck to create the map
+    if 'geometry' in geo_df.columns:
+        view_state = pdk.ViewState(
+            latitude=geo_df['Latitude'].mean(),
+            longitude=geo_df['Longitude'].mean(),
+            zoom=11,
+            pitch=50
+        )
+        
+        # Define the layer to show the points on the map
+        layer = pdk.Layer(
+            'ScatterplotLayer',
+            geo_df,
+            get_position='[Longitude, Latitude]',
+            get_radius=1000,
+            get_color=[255, 0, 0],
+            pickable=True
+        )
+        
+        # Create the deck map
+        deck = pdk.Deck(layers=[layer], initial_view_state=view_state)
+        st.pydeck_chart(deck)  # Display the map
 
 else:
     st.write("Please upload a CSV file containing patient data.")
