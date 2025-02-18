@@ -1,0 +1,201 @@
+MRN,Patient Name,NRIC/Passport No,Age,Gender,Address,Postcode,Latitude,Longitude,Race,Religion,Payor,Nationality,Patient Type
+MRN1000,Trevor Morris,857682437877,72,Female,"3161 Sean Freeway
+Zimmermanmouth, ME 63610",50000,3.139,101.6869,Others,Hinduism,Cash,Non-Malaysian,Emergency
+MRN1001,Jacob Forbes,615645030929,39,Male,"86641 Amy Key
+North Alexamouth, AZ 40219",53000,3.2015,101.6446,Chinese,Hinduism,Insurance,Non-Malaysian,Emergency
+MRN1002,Kathryn Martinez,704322533926,36,Male,"6619 Whitney Brook
+South Angelachester, FL 28680",60000,3.1412,101.6874,Chinese,Buddhism,Insurance,Non-Malaysian,Inpatient
+MRN1003,Kelly Morris,485792482194,24,Female,"036 Jacqueline Lodge Apt. 438
+New David, SD 93064",50000,3.139,101.6869,Indian,Christianity,Cash,Non-Malaysian,Emergency
+MRN1004,Chris Villanueva,398997414057,90,Female,"545 Jake Camp
+New Markville, FL 45958",70000,2.7258,101.9331,Malay,Buddhism,Government,Malaysian,Outpatient
+MRN1005,Yolanda Le,159878221752,43,Male,"0809 Williams Ways Suite 301
+Santoshaven, MO 27547",50000,3.139,101.6869,Chinese,Islam,Government,Non-Malaysian,Outpatient
+MRN1006,Tom Murphy,193835810752,26,Female,"201 Murphy Street Apt. 095
+Christopherhaven, MN 98670",53000,3.2015,101.6446,Others,Hinduism,Insurance,Malaysian,Emergency
+MRN1007,Alejandro Obrien,999745608228,74,Female,"02560 Woods Mission
+New Amberport, HI 04578",53000,3.2015,101.6446,Chinese,Hinduism,Cash,Malaysian,Outpatient
+MRN1008,William Alvarez,388012971553,26,Female,"98804 David Pike
+Bondport, AR 87951",53000,3.2015,101.6446,Malay,Islam,Insurance,Non-Malaysian,Inpatient
+MRN1009,Joel Zuniga,364348139681,61,Female,"USNV Lopez
+FPO AE 79874",50000,3.139,101.6869,Indian,Islam,Insurance,Non-Malaysian,Emergency
+MRN1010,Thomas Barrett,624922688932,52,Female,"8857 Page Shores
+North Samanthaborough, NE 05605",60000,3.1412,101.6874,Malay,Christianity,Cash,Non-Malaysian,Outpatient
+MRN1011,Michael Erickson,796619144300,48,Male,"44869 Ferguson Spring
+Rebeccahaven, OR 73159",50000,3.139,101.6869,Others,Islam,Cash,Malaysian,Outpatient
+MRN1012,Jose Flowers,472316303979,76,Female,"39236 Mcdonald Cliff Suite 146
+Timothyport, WV 68997",53000,3.2015,101.6446,Indian,Hinduism,Government,Malaysian,Outpatient
+MRN1013,Kimberly Mills,509374307223,70,Male,"28514 Sylvia Lights Apt. 099
+Ryantown, OH 23190",60000,3.1412,101.6874,Malay,Hinduism,Cash,Malaysian,Inpatient
+MRN1014,Susan Maddox,138448818576,72,Female,"717 Deborah Falls Apt. 914
+Vanessaview, KY 81777",70000,2.7258,101.9331,Others,Islam,Government,Non-Malaysian,Emergency
+MRN1015,Brianna James,991796472267,34,Female,"8037 Sara Stravenue Suite 225
+Robertsonside, NV 47606",53000,3.2015,101.6446,Chinese,Hinduism,Cash,Malaysian,Outpatient
+MRN1016,Joshua Smith,397730398764,73,Female,"USNS Schaefer
+FPO AP 97545",60000,3.1412,101.6874,Malay,Hinduism,Government,Non-Malaysian,Inpatient
+MRN1017,Mark Jordan,953959132315,54,Male,"7013 Thomas Freeway Apt. 197
+Port Benjamin, MT 49698",53000,3.2015,101.6446,Chinese,Christianity,Insurance,Non-Malaysian,Emergency
+MRN1018,David Franklin,250558424341,36,Female,"545 Campbell Creek Suite 480
+Daviston, NM 64969",60000,3.1412,101.6874,Indian,Hinduism,Government,Non-Malaysian,Outpatient
+MRN1019,Sharon Mcdonald,148555251160,22,Male,"254 Harper Track
+East Jeremiah, CT 89882",53000,3.2015,101.6446,Others,Hinduism,Government,Malaysian,Emergency
+MRN1020,Scott King,271539688216,59,Male,"Unit 5607 Box 4742
+DPO AP 76900",53000,3.2015,101.6446,Others,Hinduism,Insurance,Malaysian,Emergency
+MRN1021,Kevin Meyers,766702215678,37,Female,"755 Cook Station
+Jonesside, NV 87352",60000,3.1412,101.6874,Chinese,Islam,Government,Non-Malaysian,Inpatient
+MRN1022,Stephanie Bryan,948280623851,67,Male,"PSC 7692, Box 5843
+APO AE 66946",70000,2.7258,101.9331,Chinese,Hinduism,Government,Non-Malaysian,Outpatient
+MRN1023,Rachel Grimes,404006566765,47,Female,"525 Kristin Inlet
+Collinsville, MD 06334",53000,3.2015,101.6446,Indian,Islam,Cash,Non-Malaysian,Emergency
+MRN1024,Connor Ramirez,620507954137,45,Male,"138 Sullivan Vista Apt. 875
+Douglasmouth, MN 89903",80000,1.4927,103.7414,Others,Buddhism,Insurance,Non-Malaysian,Emergency
+MRN1025,Philip Hammond,221704879479,64,Female,"20768 Ryan Parks Suite 472
+Whitakerview, IL 12976",53000,3.2015,101.6446,Malay,Hinduism,Insurance,Non-Malaysian,Inpatient
+MRN1026,Jessica Brown,168453678750,63,Male,"149 Campos Union Suite 522
+Port Jeffrey, IN 81149",60000,3.1412,101.6874,Malay,Buddhism,Insurance,Malaysian,Outpatient
+MRN1027,Chase Carey,169227441545,46,Female,"9945 Hurst Burgs Suite 359
+Owenland, GA 87802",60000,3.1412,101.6874,Chinese,Hinduism,Cash,Malaysian,Emergency
+MRN1028,Richard Jordan,233110243095,85,Female,"0539 Parker Spur Suite 130
+South Samanthaburgh, NY 96671",60000,3.1412,101.6874,Others,Buddhism,Insurance,Non-Malaysian,Inpatient
+MRN1029,David Manning,343434261940,86,Male,"910 Gloria Square
+Turnermouth, VT 83326",60000,3.1412,101.6874,Chinese,Christianity,Cash,Malaysian,Outpatient
+MRN1030,Eric Kirk,372124279097,34,Female,"PSC 4731, Box 5130
+APO AA 64824",80000,1.4927,103.7414,Chinese,Islam,Cash,Non-Malaysian,Outpatient
+MRN1031,Tracy Owens,104505232843,80,Male,"4092 Reeves Stream Apt. 852
+East Lindafurt, NM 70988",80000,1.4927,103.7414,Indian,Hinduism,Cash,Non-Malaysian,Inpatient
+MRN1032,Samantha Mendoza,146762834360,65,Female,"9751 Stacey Freeway
+Millerborough, SC 62993",70000,2.7258,101.9331,Indian,Islam,Insurance,Malaysian,Outpatient
+MRN1033,Dawn White,943760557810,85,Female,"24756 Chandler Island
+Lawsonview, MA 09713",50000,3.139,101.6869,Malay,Hinduism,Insurance,Malaysian,Emergency
+MRN1034,Frank Harris,188941536901,88,Female,"6046 Casey Parkways Suite 390
+Ericafurt, PA 25214",80000,1.4927,103.7414,Indian,Hinduism,Cash,Non-Malaysian,Outpatient
+MRN1035,Samantha Norman,555346363653,31,Female,"USNV Cardenas
+FPO AP 39706",70000,2.7258,101.9331,Chinese,Buddhism,Insurance,Non-Malaysian,Emergency
+MRN1036,Alyssa Rodriguez,623202989479,39,Female,"53649 Kelly Hollow
+New Benjaminchester, NY 04472",60000,3.1412,101.6874,Others,Islam,Government,Non-Malaysian,Inpatient
+MRN1037,Beverly Li,544084295228,39,Male,"6069 Dawson Mountain
+Bradleyview, MI 95641",60000,3.1412,101.6874,Others,Christianity,Cash,Malaysian,Emergency
+MRN1038,Roberto Cook,245175408888,76,Male,"397 Christopher Neck Suite 163
+Petersonview, OK 99740",70000,2.7258,101.9331,Chinese,Hinduism,Government,Non-Malaysian,Emergency
+MRN1039,Jerry Griffith,246686266864,19,Male,"43908 Simmons Spur Suite 203
+South Dawnton, VA 63010",50000,3.139,101.6869,Indian,Islam,Cash,Non-Malaysian,Inpatient
+MRN1040,Kayla Tucker,272442648903,86,Female,"3800 Hayley Loaf Suite 040
+North Kimberlyborough, CA 98010",60000,3.1412,101.6874,Malay,Christianity,Cash,Non-Malaysian,Inpatient
+MRN1041,Sharon Rice,929676645130,30,Male,"7270 Steven Forest
+South Candacebury, ME 74877",70000,2.7258,101.9331,Chinese,Hinduism,Insurance,Malaysian,Emergency
+MRN1042,Andrew Bradford,738561497900,58,Male,"65403 Williams Canyon Suite 705
+East Benjamin, NM 59146",53000,3.2015,101.6446,Indian,Islam,Insurance,Malaysian,Emergency
+MRN1043,Amy Jackson,814922558641,78,Female,"25345 Riley Bypass Suite 188
+Lake Cheryltown, WI 10030",53000,3.2015,101.6446,Chinese,Hinduism,Government,Malaysian,Emergency
+MRN1044,Charles Bell,271493643722,85,Male,"462 Cox Tunnel Apt. 188
+Kingside, NC 19484",60000,3.1412,101.6874,Chinese,Christianity,Insurance,Malaysian,Outpatient
+MRN1045,Kathy Wood,281578383671,79,Male,"0168 Vazquez Dam Apt. 294
+Charlesland, TN 90859",60000,3.1412,101.6874,Indian,Buddhism,Government,Non-Malaysian,Emergency
+MRN1046,Carl Ramirez,775559391325,25,Male,"97421 Cruz Crescent
+East Michelle, SD 01908",70000,2.7258,101.9331,Others,Buddhism,Cash,Malaysian,Outpatient
+MRN1047,Dominique Anderson,680977684259,47,Male,"PSC 7459, Box 4777
+APO AP 73392",70000,2.7258,101.9331,Malay,Buddhism,Government,Non-Malaysian,Inpatient
+MRN1048,Jamie Wilkinson,384467094509,75,Female,"71483 Silva Crossroad Suite 577
+Angelaside, VA 68825",80000,1.4927,103.7414,Malay,Christianity,Insurance,Malaysian,Inpatient
+MRN1049,Jeffrey Garcia,678612010469,74,Male,"3191 Glen Falls Suite 843
+Lake Dennischester, ME 10479",60000,3.1412,101.6874,Others,Hinduism,Insurance,Non-Malaysian,Emergency
+MRN1050,Jessica Fox,112672075049,21,Female,"7755 Franklin Ferry Apt. 487
+Kimberlyview, WA 93257",80000,1.4927,103.7414,Chinese,Hinduism,Insurance,Non-Malaysian,Inpatient
+MRN1051,Timothy Ruiz,825617528141,89,Female,"125 Hancock Court
+Mitchelltown, AK 59764",80000,1.4927,103.7414,Chinese,Hinduism,Insurance,Malaysian,Inpatient
+MRN1052,Robert Edwards,273980672590,44,Male,"194 William Parkway
+East Jefferyville, LA 12094",53000,3.2015,101.6446,Indian,Islam,Government,Malaysian,Emergency
+MRN1053,Miguel Thomas,304404884148,76,Female,"58660 Jacqueline Shoals Suite 828
+West Michael, MN 90721",50000,3.139,101.6869,Others,Islam,Cash,Non-Malaysian,Inpatient
+MRN1054,Jerry Thomas,154150892712,90,Female,"09194 Frey Oval Suite 140
+Kimberlyfurt, AK 73309",80000,1.4927,103.7414,Chinese,Islam,Cash,Non-Malaysian,Outpatient
+MRN1055,Lawrence Williams,262452065398,64,Male,"26538 Patricia Ranch
+Port Lindaside, ME 37753",70000,2.7258,101.9331,Chinese,Hinduism,Government,Non-Malaysian,Inpatient
+MRN1056,Vanessa Williams,188354224539,57,Female,"1543 Angel Spurs Apt. 028
+New Victoriaborough, WY 34966",53000,3.2015,101.6446,Malay,Buddhism,Government,Non-Malaysian,Outpatient
+MRN1057,Angela Lee,927343607209,40,Female,"635 Conrad Prairie Apt. 919
+Debraside, MO 26662",80000,1.4927,103.7414,Others,Christianity,Insurance,Malaysian,Inpatient
+MRN1058,Teresa Glenn,288292128965,19,Male,"PSC 7898, Box 7537
+APO AP 46307",60000,3.1412,101.6874,Malay,Islam,Government,Malaysian,Outpatient
+MRN1059,Faith Brown,416106614764,50,Female,"USNS Burke
+FPO AP 27823",80000,1.4927,103.7414,Chinese,Christianity,Cash,Non-Malaysian,Inpatient
+MRN1060,Lisa Melendez,273158691254,46,Female,"08833 Payne Valleys Suite 453
+Allenburgh, DC 98019",70000,2.7258,101.9331,Others,Christianity,Government,Non-Malaysian,Inpatient
+MRN1061,Isabella Phillips,194741978306,48,Female,"05825 Wells Islands Apt. 869
+Smithborough, NC 16871",50000,3.139,101.6869,Indian,Buddhism,Insurance,Malaysian,Emergency
+MRN1062,Chris Williams,821996187180,68,Female,"93803 Stone Loaf
+East Jonathan, OK 68652",80000,1.4927,103.7414,Indian,Christianity,Cash,Malaysian,Emergency
+MRN1063,Justin Bauer,442999146504,23,Female,"74923 Sharon Harbors Apt. 892
+Port Crystal, AZ 49844",60000,3.1412,101.6874,Chinese,Christianity,Insurance,Malaysian,Emergency
+MRN1064,Joshua Perry,887275920597,69,Male,"51978 David Ridge
+Lake Christopher, AL 46583",60000,3.1412,101.6874,Malay,Hinduism,Cash,Malaysian,Outpatient
+MRN1065,Jacob Fischer,729293721974,57,Female,"776 Butler Forest
+Miguelbury, NJ 30535",60000,3.1412,101.6874,Others,Islam,Government,Non-Malaysian,Outpatient
+MRN1066,Jacob Smith,176363394836,77,Male,"7121 Crystal Island Suite 284
+Perryton, WY 75291",60000,3.1412,101.6874,Indian,Hinduism,Cash,Malaysian,Outpatient
+MRN1067,Robert Weaver,849843977860,71,Male,"17606 Bryant Walk Suite 086
+Shaunberg, VA 75956",50000,3.139,101.6869,Malay,Islam,Cash,Non-Malaysian,Emergency
+MRN1068,Michael Gonzalez,567879924497,90,Female,"02156 Henry Throughway
+Murraymouth, FL 27671",53000,3.2015,101.6446,Others,Christianity,Insurance,Non-Malaysian,Inpatient
+MRN1069,Diane Perez,202800326795,30,Male,"09848 Guzman Forks Suite 916
+Davisfurt, OH 18145",53000,3.2015,101.6446,Others,Buddhism,Insurance,Malaysian,Emergency
+MRN1070,Patrick Stewart,252988359742,59,Male,"18028 Mark Place Apt. 815
+Lake Johnside, SC 28549",50000,3.139,101.6869,Indian,Islam,Insurance,Non-Malaysian,Emergency
+MRN1071,Melissa Evans,784588906317,36,Female,"677 Kelly Stravenue
+Lake Justin, MD 66395",53000,3.2015,101.6446,Indian,Buddhism,Cash,Non-Malaysian,Emergency
+MRN1072,Ashley Hunter,701305974860,20,Female,"USS Warren
+FPO AP 32086",60000,3.1412,101.6874,Others,Christianity,Cash,Malaysian,Emergency
+MRN1073,Patrick Nolan,399898604723,68,Male,"777 Christopher Brooks
+Rebeccaside, MN 87905",70000,2.7258,101.9331,Chinese,Islam,Cash,Non-Malaysian,Outpatient
+MRN1074,Kathryn Bell,889900718228,48,Male,"22561 Amber Knolls
+Port David, WI 75411",60000,3.1412,101.6874,Chinese,Buddhism,Cash,Non-Malaysian,Inpatient
+MRN1075,Jessica Zamora,159102308455,84,Female,"584 Tina Crest
+East Joelville, WY 61223",53000,3.2015,101.6446,Chinese,Buddhism,Government,Malaysian,Outpatient
+MRN1076,Ronald Grant,460159830602,22,Female,"7183 David Forks Apt. 611
+Abigailstad, RI 85515",80000,1.4927,103.7414,Others,Hinduism,Cash,Malaysian,Emergency
+MRN1077,Jordan Hunter,308878589923,58,Male,"48171 Lisa Glens Suite 428
+Lake Amyfurt, DE 73718",53000,3.2015,101.6446,Others,Christianity,Government,Non-Malaysian,Inpatient
+MRN1078,Tracy Smith,540823288915,40,Female,"12916 Lawrence Drive
+East Kimberly, OR 76352",53000,3.2015,101.6446,Others,Hinduism,Government,Non-Malaysian,Outpatient
+MRN1079,Heather Rosales,445846490213,35,Male,"33680 Rebecca Junction
+Lake Sallyfort, IN 39627",70000,2.7258,101.9331,Others,Christianity,Insurance,Malaysian,Emergency
+MRN1080,Robin Mullins,383643543033,69,Male,"2850 Fuller Oval
+Grayville, OR 80374",60000,3.1412,101.6874,Malay,Buddhism,Insurance,Non-Malaysian,Emergency
+MRN1081,Brian Cruz,882581860081,56,Female,"5603 Robinson Trace Apt. 829
+West Allisonshire, NE 62244",80000,1.4927,103.7414,Chinese,Christianity,Cash,Non-Malaysian,Outpatient
+MRN1082,Michael Bush,793371000378,69,Male,"5474 Braun Crest Suite 196
+South Carlbury, AK 18751",50000,3.139,101.6869,Indian,Buddhism,Government,Malaysian,Outpatient
+MRN1083,John Branch,529518757229,71,Female,"1634 Allen Lake
+New Robertmouth, NY 55314",70000,2.7258,101.9331,Malay,Islam,Insurance,Non-Malaysian,Emergency
+MRN1084,Gabriel Gonzales,566142186089,25,Male,"1758 Megan Stream
+North Christopher, UT 60307",60000,3.1412,101.6874,Others,Buddhism,Insurance,Malaysian,Emergency
+MRN1085,Tamara Hernandez MD,371530585596,25,Male,"179 Richardson Isle
+North Sylvia, AK 63225",53000,3.2015,101.6446,Malay,Buddhism,Cash,Malaysian,Outpatient
+MRN1086,Tiffany Nelson,397739578653,41,Female,"98543 Brett Lane Suite 582
+Weaverside, TX 66724",60000,3.1412,101.6874,Others,Christianity,Cash,Non-Malaysian,Inpatient
+MRN1087,Shane Lowery,637868549761,25,Male,"67766 Newman Expressway
+Acostamouth, DC 71794",70000,2.7258,101.9331,Others,Islam,Government,Non-Malaysian,Outpatient
+MRN1088,John Chang,322368913054,26,Female,"885 Mcdowell Knolls
+West Coreybury, TX 75562",60000,3.1412,101.6874,Malay,Christianity,Insurance,Non-Malaysian,Emergency
+MRN1089,Melanie Greer,452520804164,65,Male,"37588 Snyder Squares Apt. 078
+Kingside, NV 33586",80000,1.4927,103.7414,Indian,Christianity,Government,Non-Malaysian,Emergency
+MRN1090,Stephanie Kelley,145504456475,31,Male,"20934 Michael Drive
+East Grant, UT 15224",50000,3.139,101.6869,Indian,Islam,Government,Non-Malaysian,Outpatient
+MRN1091,Allison Thomas,409674139337,44,Female,"360 Jeremy Pike Suite 606
+North Brittanyborough, CO 52783",60000,3.1412,101.6874,Malay,Hinduism,Government,Non-Malaysian,Outpatient
+MRN1092,Elizabeth Ryan,417796435682,40,Male,"8532 Miller Crest
+Gomezfurt, AK 15945",53000,3.2015,101.6446,Others,Hinduism,Cash,Malaysian,Emergency
+MRN1093,Christian Powell,148772608732,64,Female,"834 Melissa Run Suite 137
+New Derrickport, KY 93931",53000,3.2015,101.6446,Others,Christianity,Insurance,Non-Malaysian,Inpatient
+MRN1094,Jennifer Simmons,976648807075,50,Male,"PSC 0293, Box 3222
+APO AE 08088",80000,1.4927,103.7414,Indian,Hinduism,Government,Malaysian,Emergency
+MRN1095,Christine Johnson,759615141639,75,Female,"390 Brennan Plaza
+Lake Joshua, MT 95025",80000,1.4927,103.7414,Malay,Christianity,Government,Malaysian,Inpatient
+MRN1096,Rebecca Cruz,896721021838,75,Female,"97338 Kristine Squares Suite 039
+Susanmouth, NE 71655",70000,2.7258,101.9331,Chinese,Buddhism,Government,Non-Malaysian,Emergency
+MRN1097,Kristin Pena,744069033585,53,Male,"Unit 1742 Box 7791
+DPO AP 12164",60000,3.1412,101.6874,Malay,Christianity,Cash,Non-Malaysian,Inpatient
+MRN1098,Dr. Amy Foster DDS,698068468898,65,Male,"982 John Skyway
+Sheaborough, KY 43445",50000,3.139,101.6869,Others,Christianity,Insurance,Non-Malaysian,Outpatient
+MRN1099,Mary Marsh,264433736677,73,Female,"286 Hays Heights
+Connieland, LA 58463",53000,3.2015,101.6446,Indian,Hinduism,Cash,Non-Malaysian,Inpatient
