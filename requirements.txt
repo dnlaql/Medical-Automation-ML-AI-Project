@@ -1,5 +1,7 @@
 streamlit
 pandas
-pydeck
+matplotlib
+seaborn
 geopandas
 shapely
+pydeck
