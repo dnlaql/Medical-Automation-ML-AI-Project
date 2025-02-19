@@ -72,3 +72,9 @@ if uploaded_file is not None:
 
 else:
     st.write("Please upload a CSV file containing patient data.")
+
+from data_analysis import plot_data_analysis
+
+# After filtering
+plot_data_analysis(filtered_df)  # Display Data Analysis
+
