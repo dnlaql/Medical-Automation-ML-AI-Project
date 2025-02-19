@@ -20,3 +20,5 @@
    - **Named Entity Recognition (NER)** to extract patient information from medical records.
    - **Sentiment analysis** to understand patient feedback.
 
+## Go to my Dashboard 
+### https://medical-automation-ml-ai-project.streamlit.app/
