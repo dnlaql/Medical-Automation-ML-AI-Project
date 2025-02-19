@@ -4,10 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 def plot_data_analysis(df):
-    """
-    Function to generate exploratory data analysis visualizations
-    based on user-filtered data.
-    """
+    """Function to generate exploratory data analysis visualizations."""
 
     # Define Age Groups
     bins = [0, 18, 30, 45, 60, 75, 100]
@@ -32,7 +29,7 @@ def plot_data_analysis(df):
         sns.countplot(data=df, y='Religion', order=df['Religion'].value_counts().index, palette='viridis', ax=ax)
         st.pyplot(fig)
 
-    # 📌 Payer Distribution (Pie Chart)
+    # 📌 Additional Charts
     with col1:
         st.subheader("Payer Type Distribution")
         fig, ax = plt.subplots()
@@ -40,31 +37,8 @@ def plot_data_analysis(df):
         ax.set_ylabel("")
         st.pyplot(fig)
 
-    # 📌 Nationality Distribution (Bar Chart)
     with col2:
         st.subheader("Nationality Distribution")
         fig, ax = plt.subplots()
         sns.countplot(data=df, y='Nationality', order=df['Nationality'].value_counts().index, palette='coolwarm', ax=ax)
-        st.pyplot(fig)
-
-    # 📌 Patient Type Distribution (Bar Chart)
-    with col1:
-        st.subheader("Patient Type Distribution")
-        fig, ax = plt.subplots()
-        sns.countplot(data=df, y='Patient type', order=df['Patient type'].value_counts().index, palette='magma', ax=ax)
-        st.pyplot(fig)
-
-    # 📌 Race Distribution (Pie Chart)
-    with col2:
-        st.subheader("Race Distribution")
-        fig, ax = plt.subplots()
-        df['Race'].value_counts().plot.pie(autopct='%1.1f%%', ax=ax)
-        ax.set_ylabel("")
-        st.pyplot(fig)
-
-    # 📌 Age Group Distribution (Histogram)
-    with col1:
-        st.subheader("Age Group Distribution")
-        fig, ax = plt.subplots()
-        sns.histplot(df['Age'], bins=6, kde=True, ax=ax, color='green')
         st.pyplot(fig)
