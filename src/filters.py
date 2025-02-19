@@ -1,53 +1,49 @@
-import pandas as pd
+import streamlit as st
 
-def filter_data(df, gender=None, religion=None, payor=None, nationality=None, patient_type=None, race=None, age_group=None):
+def filter_data(df):
     """
-    Function to filter the dataset based on specified criteria.
-    
-    Parameters:
-    - df (DataFrame): The dataset to filter.
-    - gender (str): Filter by gender (e.g., "Male", "Female").
-    - religion (str): Filter by religion (e.g., "Islam", "Christianity").
-    - payor (str): Filter by payor type (e.g., "Insurance", "Self-Pay").
-    - nationality (str): Filter by nationality (e.g., "Malaysian", "Foreigner").
-    - patient_type (str): Filter by patient type (e.g., "Outpatient", "Inpatient").
-    - race (str): Filter by race (e.g., "Malay", "Chinese").
-    - age_group (str): Filter by predefined age groups.
-    
-    Returns:
-    - DataFrame: Filtered dataset.
+    Function to filter data based on user-selected criteria in Streamlit sidebar.
     """
 
-    if gender:
-        df = df[df['Gender'] == gender]
-    
-    if religion:
-        df = df[df['Religion'] == religion]
-    
-    if payor:
-        df = df[df['Payor'] == payor]
+    # Filter by Gender
+    gender_options = df["Gender"].dropna().unique()
+    selected_gender = st.sidebar.multiselect("Select Gender", gender_options, default=gender_options)
 
-    if nationality:
-        df = df[df['Nationality'] == nationality]
+    # Filter by Religion
+    religion_options = df["Religion"].dropna().unique()
+    selected_religion = st.sidebar.multiselect("Select Religion", religion_options, default=religion_options)
 
-    if patient_type:
-        df = df[df['Patient Type'] == patient_type]
-    
-    if race:
-        df = df[df['Race'] == race]
+    # Filter by Payer
+    payer_options = df["Payer"].dropna().unique()
+    selected_payer = st.sidebar.multiselect("Select Payer", payer_options, default=payer_options)
 
-    if age_group:
-        df = df[df['Age Group'] == age_group]
+    # Filter by Nationality
+    nationality_options = df["Nationality"].dropna().unique()
+    selected_nationality = st.sidebar.multiselect("Select Nationality", nationality_options, default=nationality_options)
 
-    return df
+    # Filter by Patient Type
+    patient_type_options = df["Patient Type"].dropna().unique()
+    selected_patient_type = st.sidebar.multiselect("Select Patient Type", patient_type_options, default=patient_type_options)
 
-def categorize_age(df):
-    """
-    Function to create an 'Age Group' column based on age ranges.
-    """
-    bins = [0, 12, 17, 35, 50, 65, 100]
-    labels = ["Child", "Teenager", "Young Adult", "Middle-aged Adult", "Senior Adult", "Elderly"]
-    
-    df['Age Group'] = pd.cut(df['Age'], bins=bins, labels=labels, right=True)
-    
-    return df
+    # Filter by Race
+    race_options = df["Race"].dropna().unique()
+    selected_race = st.sidebar.multiselect("Select Race", race_options, default=race_options)
+
+    # Age Grouping
+    df["Age Group"] = pd.cut(df["Age"], bins=[0, 18, 35, 50, 65, 100], labels=["<18", "18-35", "36-50", "51-65", "66+"])
+
+    age_options = df["Age Group"].dropna().unique()
+    selected_age = st.sidebar.multiselect("Select Age Group", age_options, default=age_options)
+
+    # Apply filters
+    filtered_df = df[
+        (df["Gender"].isin(selected_gender)) &
+        (df["Religion"].isin(selected_religion)) &
+        (df["Payer"].isin(selected_payer)) &
+        (df["Nationality"].isin(selected_nationality)) &
+        (df["Patient Type"].isin(selected_patient_type)) &
+        (df["Race"].isin(selected_race)) &
+        (df["Age Group"].isin(selected_age))
+    ]
+
+    return filtered_df
