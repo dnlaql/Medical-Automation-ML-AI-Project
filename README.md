@@ -24,7 +24,7 @@
 
 ## How to and explaination 
 ### https://medical-automation-ml-ai-project.streamlit.app/
-### use this file to uploading the file. This file is come from Hospital Information System.
+### Use this file to uploading the file. This file is come from Hospital Information System. https://github.com/dnlaql/Medical-Automation-ML-AI-Project/tree/main/data
 ### Actual, the machine will read from patient address and automatically help to find Latlong also update the dataset new column and ready to use for geo function.
 
 ## Poster 
