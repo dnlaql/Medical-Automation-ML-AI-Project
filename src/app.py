@@ -6,7 +6,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'src')))
 
 # Importing necessary functions from modularized scripts
 from data_preprocessing import preprocess_data
-from geo_location_patient import plot_patient_map
+from geo_location_patient import create_geo_dataframe, create_map
 from filtering import filter_data
 from data_analysis import plot_data_analysis
 
