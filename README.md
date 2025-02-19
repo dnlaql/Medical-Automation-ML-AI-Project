@@ -22,8 +22,10 @@
    - **Named Entity Recognition (NER)** to extract patient information from medical records.
    - **Sentiment analysis** to understand patient feedback.
 
-## Go to my Dashboard 
+## How to and explaination 
 ### https://medical-automation-ml-ai-project.streamlit.app/
+### use this file to uploading the file. This file is come from Hospital Information System.
+### Actual, the machine will read from patient address and automatically help to find Latlong also update the dataset new column and ready to use for geo function.
 
 ## Poster 
 ![AI-Powered Medical Data Processing   Dashboarding](https://github.com/user-attachments/assets/edb23699-26cb-442c-aef3-7e7b87539157)
