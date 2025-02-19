@@ -39,19 +39,15 @@ if uploaded_file is not None:
 
             # 📌 Step 3: Display Processed Data (with better table formatting)
             st.subheader("📊 Data Preview (After Preprocessing & Filtering)")
-            st.dataframe(
-                filtered_df.style.set_properties(
-                    **{
-                        'background-color': '#f5f5f5', 
-                        'border-color': 'black', 
-                        'font-size': '14px'
-                    }
-                )
-            )
+            st.dataframe(filtered_df)
 
             # 📌 Step 4: Geo-Visualization
             st.subheader("🗺️ Patient Location Map")
-            plot_patient_map(filtered_df)
+            map_visual = create_map(filtered_df)  # FIXED: Correct function name
+            if map_visual:
+                st.pydeck_chart(map_visual)
+            else:
+                st.warning("⚠️ No valid location data to display on the map.")
 
             # 📌 Step 5: Data Analysis & Insights
             st.subheader("📈 Automated Data Analysis")
