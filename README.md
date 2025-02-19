@@ -12,11 +12,13 @@
    - **Patient distribution by postcode** using **latitude** and **longitude**.
    - **Heatmaps** to visualize the density of patients in different areas.
 
-### 3. **Machine Learning Models** 🤖
+## Soon
+
+### 1. **Machine Learning Models** 🤖
    - **Risk prediction model** based on patient demographic data.
    - Model evaluates whether a patient is at **high risk** based on factors such as age, race, and payor type.
 
-### 4. **Optional NLP Analysis** 🧠
+### 2. **Optional NLP Analysis** 🧠
    - **Named Entity Recognition (NER)** to extract patient information from medical records.
    - **Sentiment analysis** to understand patient feedback.
 
