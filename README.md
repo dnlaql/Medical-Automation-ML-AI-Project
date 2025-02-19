@@ -25,5 +25,5 @@
 ## Go to my Dashboard 
 ### https://medical-automation-ml-ai-project.streamlit.app/
 
-##Poster 
+## Poster 
 ![AI-Powered Medical Data Processing   Dashboarding](https://github.com/user-attachments/assets/edb23699-26cb-442c-aef3-7e7b87539157)
