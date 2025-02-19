@@ -30,8 +30,8 @@ if uploaded_file is not None:
     geo_df = create_geo_dataframe(df)
 
     # Show preview of cleaned data
-    st.write("Data preview (after preprocessing):")
-    st.dataframe(geo_df.head())
+    #st.write("Data preview (after preprocessing):")
+    #st.dataframe(geo_df.head())
 
     # Sidebar Filters
     st.sidebar.header("Filter Options")
