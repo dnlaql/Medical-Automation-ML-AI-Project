@@ -1,10 +1,10 @@
 import sys
 import os
 
-# Add the 'src' directory to sys.path
+# Add the 'src' directory to the sys.path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'src')))
 
-# Import functions from modular scripts
+# Importing necessary functions from modularized scripts
 from data_preprocessing import preprocess_data
 from geo_location_patient import create_geo_dataframe, create_map
 from filtering import filter_data
@@ -30,13 +30,14 @@ if uploaded_file is not None:
             st.warning("⚠️ Uploaded file is empty. Please upload a valid dataset.")
         else:
             # 📌 Step 1: Preprocess Data
-            processed_df = preprocess_data(df)
+            geo_df = preprocess_data(df)
 
             # 📌 Step 2: Sidebar Filtering Section
             st.sidebar.header("🔍 Filter Data")
-            filtered_df = filter_data(processed_df)  # Apply filters
+            st.sidebar.write("Use the filters below to refine the dataset for analysis.")
+            filtered_df = filter_data(geo_df)  # Apply filters
 
-            # 📌 Step 3: Display Processed Data
+            # 📌 Step 3: Display Processed Data (with better table formatting)
             st.subheader("📊 Data Preview (After Preprocessing & Filtering)")
             st.dataframe(filtered_df)
 
